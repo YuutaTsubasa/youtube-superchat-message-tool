@@ -20,13 +20,6 @@ fromEvent(window, "load")
                 let columns = row.querySelectorAll("td");
                 if (columns == 8) return;
 
-                /* hide the other information */
-                columns[0].innerText = "";
-                columns[1].innerText = "";
-                columns[3].innerText = "";
-                columns[4].innerText = "";
-                columns[5].innerText = "";
-
                 let button = document.createElement("button");
                 button.innerText = "特製顯示";
                 fromEvent(button, "click")
