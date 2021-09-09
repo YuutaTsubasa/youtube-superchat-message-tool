@@ -26,7 +26,7 @@ fromEvent(window, "load")
                     .subscribe(_ => {
                         ipcRenderer.send('openMessageWindow', {
                             author: columns[2].innerText,
-                            message: decodeURI(columns[6].querySelector("a").getAttribute("data-msg"))
+                            message: unescape(decodeURI(columns[6].querySelector("a").getAttribute("data-msg")))
                         });
                     });
 
