@@ -26,6 +26,10 @@ ecpay-message-tool-darwin-x64-{version}.zip | macOS (64-bit)
 7. 按下去。
 8. 於 OBS 介面擷取「訊息視窗」即可。（可利用濾鏡中的色度鍵去背景）
 
+## 版本修正紀錄
+### v1.0.1
+- 修正 '$' 之類的符號顯示的問題。
+
 ## 使用技術
 - [npm](https://www.electronjs.org/)
 - [Electron](https://www.electronjs.org/)
