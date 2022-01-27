@@ -1,8 +1,10 @@
-# 綠界訊息實況小工具
+# 歐付寶訊息實況小工具
+
+## 自 [YuutaTsubasa/ecpay-message-tool](https://github.com/YuutaTsubasa/ecpay-message-tool) 複製而來
 
 ![demo.gif](demo.gif)
 
-一個可以用於實況中顯示綠界訊息的小工具。
+一個可以用於實況中顯示歐付寶訊息的小工具。(圖片暫用原本的綠界訊息實況小工具做展示)
 
 ## 下載頁面
 
@@ -10,18 +12,18 @@
 
 檔名 | 作業系統
 --- | --- 
-ecpay-message-tool-win32-x64-{version}.zip | Windows (64-bit)
-ecpay-message-tool-{version}-1.x86_64.rpm | Linux (64-bit) .rpm
-ecpay-message-tool_{version}_amd64.deb | Linux (64-bit) .deb
-ecpay-message-tool-darwin-x64-{version}.zip | macOS (64-bit)
+opay-message-tool-win32-x64-{version}.zip | Windows (64-bit)
+opay-message-tool-{version}-1.x86_64.rpm | Linux (64-bit) .rpm
+opay-message-tool_{version}_amd64.deb | Linux (64-bit) .deb
+opay-message-tool-darwin-x64-{version}.zip | macOS (64-bit)
 
 ## 使用說明
 
-使用說明影片：[http://yutaii.run/tool/1](http://yutaii.run/tool/1)
+可先參考綠界訊息實況小工具使用說明影片當作使用的參考：[http://yutaii.run/tool/1](http://yutaii.run/tool/1)
 
 ### 基本使用方法
-1. 打開程式(ecpay-message-tool.exe)，會打開兩個視窗：「網頁視窗」和「訊息視窗」。
-2. 利用「網頁視窗」登入綠界。(尚未登入前可能會被導到 ECShop 的頁面，可點選 Logo 到首頁去登入)
+1. 打開程式(opay-message-tool.exe)，會打開兩個視窗：「網頁視窗」和「訊息視窗」。
+2. 利用「網頁視窗」登入歐付寶。
 4. 來到「實況主收款明細」頁面。
 5. 查詢你要的訊息。
 6. 等待一下，表格後面每一條會多一個「特製顯示」的按鈕。

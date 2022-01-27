@@ -14,12 +14,12 @@ const createWindow = () => {
     width: 1024,
     height: 768,
     webPreferences: {
-      preload: path.join(__dirname, 'ecpayPreload.js'),
+      preload: path.join(__dirname, 'opayPreload.js'),
       backgroundThrottling: false
     }
   });
 
-  mainWindow.loadURL("https://payment.ecpay.com.tw/Broadcaster/DonateList");
+  mainWindow.loadURL("https://payment.opay.tw/Broadcaster/DonateList");
 
   // Open the DevTools.
   //mainWindow.webContents.openDevTools();

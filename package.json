@@ -1,8 +1,8 @@
 {
-  "name": "ecpay-message-tool",
-  "productName": "ecpay-message-tool",
+  "name": "opay-message-tool",
+  "productName": "opay-message-tool",
   "version": "1.0.1",
-  "description": "A convenient tool to view the ECPay messages in the streaming.",
+  "description": "A convenient tool to view the O'Pay messages in the streaming.",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -43,7 +43,7 @@
           "config": {
             "repository": {
               "owner": "YuutaTsubasa",
-              "name": "ecpay-message-tool"
+              "name": "opay-message-tool"
             }
           }
         }
