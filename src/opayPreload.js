@@ -10,7 +10,7 @@ fromEvent(window, "load")
             let titleRow = table.querySelector("thead tr");
             let rows = table.querySelectorAll("tbody tr");
 
-            if (titleRow.querySelectorAll("th").length !== 8){
+            if (titleRow.querySelectorAll("th").length !== 7){
                 let buttonTitle = document.createElement("th");
                 buttonTitle.innerText = "特製顯示";
                 titleRow.appendChild(buttonTitle);
@@ -18,7 +18,7 @@ fromEvent(window, "load")
 
             rows.forEach(row => {
                 let columns = row.querySelectorAll("td");
-                if (columns == 8) return;
+                if (columns == 7) return;
 
                 let button = document.createElement("button");
                 button.innerText = "特製顯示";
@@ -26,7 +26,7 @@ fromEvent(window, "load")
                     .subscribe(_ => {
                         ipcRenderer.send('openMessageWindow', {
                             author: columns[2].innerText,
-                            message: unescape(decodeURI(columns[6].querySelector("a").getAttribute("data-msg")))
+                            message: unescape(decodeURI(columns[5].querySelector("a").getAttribute("data-msg")))
                         });
                     });
 

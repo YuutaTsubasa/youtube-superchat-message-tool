@@ -49,7 +49,7 @@ ipcMain.on("openMessageWindow", (event, {author, message}) => {
       message: message
     });
   }
-  
+
   try {
     fillContent();
   } catch(_) {
