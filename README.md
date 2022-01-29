@@ -1,7 +1,5 @@
 # 歐付寶訊息實況小工具
 
-## 自 [YuutaTsubasa/ecpay-message-tool](https://github.com/YuutaTsubasa/ecpay-message-tool) 複製而來
-
 ![demo.png](demo.png)
 
 一個可以用於實況中顯示歐付寶訊息的小工具。
