@@ -2,13 +2,13 @@
 
 ## 自 [YuutaTsubasa/ecpay-message-tool](https://github.com/YuutaTsubasa/ecpay-message-tool) 複製而來
 
-![demo.gif](demo.gif)
+![demo.png](demo.png)
 
-一個可以用於實況中顯示歐付寶訊息的小工具。(圖片暫用原本的綠界訊息實況小工具做展示)
+一個可以用於實況中顯示歐付寶訊息的小工具。
 
 ## 下載頁面
 
-可至[Release](https://github.com/YuutaTsubasa/ecpay-message-tool/releases/)頁面根據自身的作業系統下載最新版本。
+可至[Release](https://github.com/YuutaTsubasa/opay-message-tool/releases/)頁面根據自身的作業系統下載最新版本。
 
 檔名 | 作業系統
 --- | --- 
