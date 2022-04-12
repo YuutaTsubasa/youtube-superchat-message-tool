@@ -11,7 +11,7 @@ html, body {
 }
 
 main {
-    background-color: #1c2f65;
+    background-color: #c41f1f;
     min-height: 300px;
     width: 600px;
     padding-top: 5px;
@@ -37,7 +37,7 @@ main {
     word-wrap: break-word;
 }
 
-.content * {
+.content > * {
     width: 80%;
 }
 

@@ -14,12 +14,12 @@ const createWindow = () => {
     width: 1024,
     height: 768,
     webPreferences: {
-      preload: path.join(__dirname, 'opayPreload.js'),
+      preload: path.join(__dirname, 'youtubeSuperchatPreload.js'),
       backgroundThrottling: false
     }
   });
 
-  mainWindow.loadURL("https://payment.opay.tw/Broadcaster/DonateList");
+  mainWindow.loadURL("https://studio.youtube.com/");
 
   // Open the DevTools.
   //mainWindow.webContents.openDevTools();

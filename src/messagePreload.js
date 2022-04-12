@@ -5,6 +5,6 @@ ipcRenderer.on("fillContent", (event, {author, message}) => {
     let messageElement = document.querySelector(".message");
     let authorElement = document.querySelector(".author");
 
-    messageElement.innerText = message;
+    messageElement.innerHTML = message;
     authorElement.innerText = `By ${author}`;
 });
