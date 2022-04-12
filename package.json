@@ -1,7 +1,7 @@
 {
   "name": "youtube-superchat-message-tool",
   "productName": "youtube-superchat-message-tool",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A convenient tool to view the Youtube superchat messages in the streaming.",
   "main": "src/index.js",
   "scripts": {
@@ -43,7 +43,7 @@
           "config": {
             "repository": {
               "owner": "YuutaTsubasa",
-              "name": "opay-message-tool"
+              "name": "youtube-superchat-message-tool"
             }
           }
         }

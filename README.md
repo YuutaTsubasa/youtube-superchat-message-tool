@@ -32,8 +32,9 @@ youtube-superchat-message-tool-darwin-x64-{version}.zip | macOS (64-bit)
 
 ## 版本修正紀錄
 
-### v1.0.2
+### v1.0.4
 - 修正簡體中文與日文無字型問題。
+
 ### v1.0.1
 - 修正 '$' 之類的符號顯示的問題。
 
