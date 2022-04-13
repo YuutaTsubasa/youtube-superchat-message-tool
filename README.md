@@ -21,7 +21,7 @@ youtube-superchat-message-tool-darwin-x64-{version}.zip | macOS (64-bit)
 
 ### 基本使用方法
 
-![tutorial.jpg](tutorial.jpg)
+![tutorial.png](tutorial.png)
 
 1. 打開程式(youtube-superchat-message-tool.exe)，會打開兩個視窗：「網頁視窗」和「訊息視窗」。
 2. 在「網頁視窗」登入 Youtube 後台。
