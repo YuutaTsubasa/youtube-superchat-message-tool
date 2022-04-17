@@ -28,7 +28,7 @@ youtube-superchat-message-tool-darwin-x64-{version}.zip | macOS (64-bit)
 3. 進入 Youtube 後台的營利中的「Supers」標籤。
 4. 將詳細內容打開後，會看到表格後面每一條會多一個「特製顯示」的按鈕。
 5. 按下去。
-8. 於 OBS 介面擷取「訊息視窗」即可。（可利用濾鏡中的色度鍵去背景）
+6. 於 OBS 介面擷取「訊息視窗」即可。（可利用濾鏡中的色度鍵去背景）
 
 ## 版本修正紀錄
 
